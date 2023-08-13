@@ -99,6 +99,10 @@ a {
   .meta-data {
     width: 100%;
   }
+  .meta-data h1 {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
 
   .detail-row {
     flex-direction: column;
@@ -109,6 +113,7 @@ a {
   }
 
   .last-row {
+    font-size: 0.8rem;
     padding: 2rem;
   }
 }
