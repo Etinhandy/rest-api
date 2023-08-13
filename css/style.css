@@ -73,7 +73,6 @@ button {
   display: none;
   position: absolute;
   width: 200px;
-  background-color: var(--bg-color);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   padding: 15px 20px;
   margin: 15px;
@@ -128,6 +127,13 @@ button {
 }
 
 @media only screen and (max-width: 425px) {
+  .country {
+    width: 100%;
+  }
+
+  .country-img {
+    width: 100%;
+  }
   h1 {
     font-size: 1rem;
   }
