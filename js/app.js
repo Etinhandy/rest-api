@@ -14,6 +14,7 @@ toggle.addEventListener("click", (e) => {
   document.body.classList.toggle("dark-mode");
   toggle.classList.toggle("dark-mode");
   icon.classList.toggle("bxs-moon");
+  dropOptions.classList.toggle("drop-color")
 });
 
 dropDown.addEventListener("click", (e) => {

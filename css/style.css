@@ -75,9 +75,16 @@ button {
   position: absolute;
   width: 200px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  background: var(--bg-color);
+  color: var(--font-color);
   padding: 15px 20px;
   margin: 15px;
   border-radius: 5px;
+}
+
+.drop-color {
+  background-color: var(--font-color);
+  color: var(--bg-color);
 }
 
 .drop-options p {
